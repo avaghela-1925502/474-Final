@@ -1,0 +1,33 @@
+/* CSS styles for the chart go here */
+
+/* Set the font family and size for the chart title */
+.chart-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Set the font family and size for the axis labels */
+  .axis-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Set the font family and size for the tick labels */
+  .tick-label {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  /* Set the color and opacity of the bars */
+  .bar {
+    fill: steelblue;
+    opacity: 0.8;
+  }
+  
+  /* Set the color and opacity of the hover state of the bars */
+  .bar:hover {
+    fill: darkblue;
+    opacity: 1;
+  }
+  
