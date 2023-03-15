@@ -123,7 +123,7 @@ svg.append("text")
   .attr("x", -height / 2)
   .attr("y", -50)
   .style("text-anchor", "middle")
-  .text("Temperature (°F)");
+  .text("Temperature (Â°F)");
 
   
 // Draw the bars
@@ -146,6 +146,7 @@ bars.enter()
         }
     })
     .attr("fill", color);
+    
 
 bars.exit().remove();
 
