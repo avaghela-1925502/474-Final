@@ -26,7 +26,19 @@
   }
   
   /* Set the color and opacity of the hover state of the bars */
-  .bar:hover {
+  /* .bar:hover {
     fill: darkblue;
     opacity: 1;
+  } */
+
+  .tooltip {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    pointer-events: none;
   }
+  
